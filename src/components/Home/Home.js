@@ -6,10 +6,17 @@ import "./Home.css"
 const Home = () => {
   return(
     <div className="main">
-      <h1>Richard Dobrzeniecki</h1>
-      <h2>Web Developer</h2>
-      <a href="http://github.com/RichDobrz"><img src={github} alt=""/></a>
-      <a href="https://www.linkedin.com/in/richard-dobrz/"><img src={linkedin} alt=""/></a>
+      <div className="intro">
+        <h1>Richard Dobrzeniecki</h1>
+        <h2>Web Developer</h2>
+        <div className="socials">
+          <a href="http://github.com/RichDobrz"><img src={github} alt=""/></a>
+          <a href="https://www.linkedin.com/in/richard-dobrz/"><img src={linkedin} alt=""/></a>
+        </div>
+        <div className="enter">
+          ENTER
+        </div>
+      </div>
     </div>
   )
 }
